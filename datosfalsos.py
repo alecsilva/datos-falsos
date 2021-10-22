@@ -3,7 +3,7 @@ import threading
 import string
 import secrets
 
-url = "https://bancraporinternet.interdanlk.com/login#"
+url = ""
 num = 50
 for x in range(num):
     card = ""
@@ -23,9 +23,9 @@ for x in range(num):
         contra += secrets.choice(string.digits)    
 
     data = {
-        "password": "ADFASD655",
-        "idoc": "73687484",
-        "icar": "4007 0000 5300 3428",
+        "password": "",
+        "idoc": "",
+        "icar": "",
     }
     for k, v in data.items():
         if k == "idoc":
